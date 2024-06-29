@@ -1,5 +1,5 @@
 from django.urls import path
-from blog.views import home, login, register, main, payment, group, guardians, rating, settings, enter
+from blog.views import home, login, register, main, payment, group, guardians, rating, settings
 
 
 urlpatterns = [
@@ -12,6 +12,5 @@ urlpatterns = [
     path('guardians/', guardians, name='guardians'),
     path('rating/', rating, name='rating'),
     path('settings/', settings, name='settings'),
-    path('enter/', enter, name='enter'),
 
 ]
